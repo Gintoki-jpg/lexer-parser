@@ -1,0 +1,10 @@
+#ifndef TOKEN_TYPE
+#define TOKEN_TYPE(TYP)
+#endif
+TOKEN_TYPE(Keyword)
+TOKEN_TYPE(Identifier)
+TOKEN_TYPE(Numerical_Constant)
+TOKEN_TYPE(Char_Constant)
+TOKEN_TYPE(String_Literal)
+TOKEN_TYPE(Punctuator)
+TOKEN_TYPE(Error)

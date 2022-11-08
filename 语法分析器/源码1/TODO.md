@@ -1,0 +1,8 @@
+ - [x] Make the grammar configurable, thus enabling further customization & addition.
+ - [ ] Use Boost.Variant to represent a token's attribute.
+ - [ ] Add removal of epsilon-production before removal of left recursion.
+ - [ ] Add a LR parser.
+ - [ ] Construct the parsing tree while parsing.
+ - [ ] Construct the AST.
+ - [ ] Add a sementic analyzer.
+ - [ ] Use python-style generator (or coroutine) to refactor the `lexer`-`parser` pipeline. 
